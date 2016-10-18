@@ -1,0 +1,11 @@
+<h2>Shoo Orders</h2>
+
+<% @orders.each do |order| %>
+  <h1>Name</h1>
+  <p><%= order.full_name %></p>
+  <h1>Address</h1>
+  <p><%= order.address %></p>
+  <h1>Order</h1>
+  <p>Ordered <%= order.quantity %> pairs of size <%= order.size %> shoes.</p>
+  <hr>
+  <% end %>
