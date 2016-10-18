@@ -1,9 +1,28 @@
 body {
-background-color: grey;
+font-family: 'Open Sans', sans-serif;
+background-image: url("04de21c6c6c1664a853843ed47db2916.jpg");
+background-repeat: repeat;
+color: #58524b;
 text-align: center;
 padding: 25px;
+font-weight: normal;
 }
 
 h1 {
+font-family: 'Fredoka One', cursive;
+font-size: 250%;
 text-align: center;
+margin: 0 0 40 0;
 }
+
+#container {
+  background-color: #ffe1bb;
+  width: 580px;
+  height: 800px;
+  float: center;
+  border-style: none solid;
+  border-width: 40px;
+  border-color: #ffe1bb;
+  padding: 40px;
+}
+
